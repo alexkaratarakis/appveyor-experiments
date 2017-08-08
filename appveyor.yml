@@ -2,8 +2,6 @@ version: 1.0.{build}
 image: Visual Studio 2017 Preview
 before_build:
 - ps: nuget restore
-nuget:
-  account_feed: true
 build:
   project: Project1.sln
   verbosity: normal
